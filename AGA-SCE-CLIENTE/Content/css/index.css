@@ -1,0 +1,114 @@
+.header {
+  width: 100%;
+  padding: 0.5em;
+  z-index: 100;
+}
+.header-title {
+  padding-bottom: 0.2em;
+}
+.header-logo {
+  width: 45px;
+  height: 45px;
+}
+@media (min-width: 576px) {
+  .header-logo {
+    width: 80px;
+    height: 80px;
+  }
+}
+.bg-light-green {
+  background: #7cb342;
+}
+.bg-dark-green {
+  background: #689f38;
+}
+.box-shadow-white {
+  box-shadow: 1px 1px 6px #fff;
+}
+.box-shadow-black {
+  box-shadow: 1px 1px 6px #000;
+}
+.navbar {
+  padding: 0;
+}
+.nav-hover {
+  transition: 0.3s;
+}
+.nav-hover:hover {
+  background: rgba(255,255,255,0.3);
+}
+.nav-hover:hover >a {
+  text-decoration: underline;
+}
+.carousel-item >img {
+  height: 100vh;
+}
+.title {
+  font-size: 1.5em;
+}
+.text-shadow-black {
+  text-shadow: 1px 1px 6px #000;
+}
+@media (min-width: 576px) {
+  .title {
+    font-size: 2.7em;
+  }
+}
+@media (min-width: 992px) {
+  .nav-link {
+    min-width: 120px;
+    height: 60px;
+    line-height: 46px;
+    text-align: center;
+  }
+}
+a,
+article,
+aside,
+body,
+div,
+figcaption,
+figure,
+h1,
+h2,
+h3,
+h4,
+h5,
+header,
+input,
+li,
+p,
+section,
+select,
+option,
+span,
+table,
+tbody,
+textarea,
+th,
+thead,
+tr,
+ul,
+ol,
+video,
+img {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+body {
+  position: relative;
+  background: #eff2e7;
+  font-family: "Sans-Serif" "Comic Sans MS";
+  font-size: 16px;
+}
+li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
